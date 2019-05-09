@@ -507,7 +507,7 @@ nav{
 
 
 li a{
-    padding: 0;
+    padding: 25px;
     width: 100%;
 }
 
@@ -547,7 +547,6 @@ li a{
 
 ul {
         list-style-type: none;
-        padding-inline-start: 0;
         
     }
     
@@ -695,6 +694,16 @@ ul {
     .flex-container2 { /*index biografia*/
         display: flex;
         flex-direction:column;
+    }
+
+    li a{
+        padding: 25px;
+        width: 100%;
+    }
+    
+
+    ul{
+        padding-inline-start: 0;
     }
 
 
@@ -923,4 +932,3 @@ ul {
 .c-purple{
     color: #977FFA;
 }
-
