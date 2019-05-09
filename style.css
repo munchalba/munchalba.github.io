@@ -834,33 +834,6 @@ ul {
     
     }
 
-    .list {
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 20px;
-        max-width: 282px;
-        max-height: 256px;
-    }
-
-    .list-titulo {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 316px;
-        max-height: 236px;
-        width: 100%;
-        top: 60px;
-        left: 20px;
-        margin-bottom: 160px;
-        -webkit-box-shadow: -34px 35px 0px 0px rgba(151,127,250,1);
-        -moz-box-shadow: -34px 35px 0px 0px rgba(151,127,250,1);
-        box-shadow: -34px 35px 0px 0px rgba(151,127,250,1);
-    }
-
 }
  
 
