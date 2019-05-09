@@ -64,7 +64,7 @@ h1{
 }
 
 .h5{
-    font-size: 18px;
+    font-size: 14px;
     color: #474747;
     font-weight: 300;
     font-family: Roboto;
@@ -696,7 +696,6 @@ ul {
         flex-direction:column;
     }
 
-
     li a{
         padding: 25px;
         width: 100%;
@@ -718,6 +717,10 @@ ul {
         
     }
 
+    .half-column {  /*división de dos elementos en dos columna, dos fotos en la misma fila*/
+        width: 80%;
+    
+    }
     
     .half-column2 {  /*división de dos elementos en dos columna, dos fotos en la misma fila*/
         width: 100%;         
@@ -726,6 +729,12 @@ ul {
     .half-column3 {  /*división de dos elementos en dos columna, dos fotos en la misma fila*/
         width: 100%; 
     }
+
+    .texto {
+        width: 90%;
+        margin: 40px 0 10px 0;
+    }
+
 
     .contact_inside {
         text-align: left;
@@ -933,3 +942,4 @@ ul {
 .c-purple{
     color: #977FFA;
 }
+
