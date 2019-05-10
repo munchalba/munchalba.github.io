@@ -731,7 +731,7 @@ ul {
     }
 
     .texto {
-        width: 90%;
+        width: 80%;
         margin: 40px 0 10px 0;
     }
 
@@ -831,6 +831,11 @@ ul {
         align-items: center; /* alinear elementos horitzontalmente*/
         justify-content: center;
         width: 100%;
+    
+    }
+
+    .half-column {  /*división de dos elementos en dos columna, dos fotos en la misma fila*/
+        width: 90%;
     
     }
 
