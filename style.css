@@ -777,6 +777,10 @@ ul {
         
     }
 
+    .background4 {
+        display: none;
+    }
+
     .contact_inside {
     
         text-align: left;
