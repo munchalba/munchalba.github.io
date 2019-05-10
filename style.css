@@ -849,6 +849,17 @@ ul {
         text-decoration: none;
     }
 
+    .a2{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 68px;
+        color: #85FF78;
+        width: 100%; 
+        text-decoration: none;
+       
+    }
+
 }
  
 
