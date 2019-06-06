@@ -52,17 +52,15 @@ h1{
 
 
 .h3{
-    font-size: 26px;
+    font-size: 24px;
     color: #474747;
 }
 
 .h4{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 0.7;
     color: #474747;
-    font-family: Roboto, sans-serif;
     font-weight: 700;
-    font-style: italic; 
 }
 
 .h5{
@@ -142,12 +140,15 @@ p {
 
 .background5{
     position: absolute;
-    max-width: 1380px;
-    height: 815px;
-    top: 7500px;
-    margin: 0 0; 
+    width: 1380px;
+    height: 1215px;
+    top: 7800px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 -150px; 
     z-index: -1;
 }
+
 
 /**/
 
@@ -208,6 +209,12 @@ p {
     margin: 40px 0 0 auto;    
 }
 
+.wrapper4 {
+    max-width: 1430px;
+    width: 100%;
+    margin: 0 auto; /* le estoy diciendo que lo centre al indicarle auto en left y right*/
+
+}
 
 
 /*texto*/
@@ -287,7 +294,7 @@ p {
 
 .contact {
 
-    margin-top: 180px;
+    margin-top: 130px;
     margin-left: auto;
     margin-bottom: 100px;
     max-height: 250px;
@@ -349,7 +356,7 @@ p {
 }
 
 .bg-cara-a {
-    background-image: url(./index/cara_a2.jpg);
+    background-image: url(./index/cara_a.jpg);
 }
 
 .bg-cara-b {
@@ -486,7 +493,7 @@ p {
 
 
 .ems{
-    width: 120px;
+    width: 150px;
 }
 
 
@@ -648,12 +655,9 @@ ul {
     }
     
     .h4{
-        font-size: 20px;
-        line-height: 0.7;
+        font-size: 16px;
         color: #474747;
-        font-family: Roboto, sans-serif;
-        font-weight: 700;
-        font-style: italic;   
+        font-weight: 700;    
     }
     
     .h5{
@@ -723,7 +727,7 @@ ul {
     }
 
     .half-column {  /*división de dos elementos en dos columna, dos fotos en la misma fila*/
-        width: 90%;
+        width: 80%;
     
     }
     
@@ -736,7 +740,7 @@ ul {
     }
 
     .texto {
-        width: 80%;
+        width: 90%;
         margin: 40px 0 10px 0;
     }
 
@@ -772,18 +776,21 @@ ul {
  
      .list:hover .container_work {
          opacity: 0;
-     }
+    }
 
+    .background4 {
+        display: none;
+    }
+
+    .background5 {
+        display: none;
+    }
 
     .presentacion{
         max-width: 470px;
         width: 70%;
         margin: 0 30px 100px 20px;
         
-    }
-
-    .background4 {
-        display: none;
     }
 
     .contact_inside {
@@ -811,7 +818,7 @@ ul {
         justify-content: center;
         max-width: 316px;
         max-height: 236px;
-        width: 80%; 
+        width: 100%; 
         top: 60px;
         left: 45px;
         margin-bottom: 160px;
@@ -841,32 +848,6 @@ ul {
         justify-content: center;
         width: 100%;
     
-    }
-
-    .half-column {  /*división de dos elementos en dos columna, dos fotos en la misma fila*/
-        width: 100%;
-    
-    }
-
-    .a {
-        font-family: 'Nunito', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 68px;
-        color: #FFFFFF;
-        width: 100%;
-        text-decoration: none;
-    }
-
-    .a2{
-        font-family: 'Nunito', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 68px;
-        color: #85FF78;
-        width: 100%; 
-        text-decoration: none;
-       
     }
 
 }
